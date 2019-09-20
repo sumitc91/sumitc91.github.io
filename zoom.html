@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Zoom Option Implementation | askgif Programming Blog</title><meta content='width=device-width, initial-scale=1' name='viewport' />
+<meta content='How to implement Zoom Option for website, check askgif for more tutorials focused on Web Development, ReactJS, Angular, JavaScript, Database Design, MySQL' name='description' />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.0/jquery.min.js"></script>
+<script type="text/javascript">
+$(function() {
+
+$("#zoom").change(function() 
+{
+var size = $(this).val();
+
+$("#main").css('font-size', size+'px');
+
+return false;
+	});
+	});
+	</script>
+<style type="text/css">
+body
+{
+font-size:15px;
+
+}
+*{
+margin:0px;
+}
+#main
+{
+margin:10px;
+font-size:25px;
+}
+#zoom
+{
+font-size:15px;
+}
+
+</style>
+</head>
+<body>
+<div> <div height="125px" align='center'>
+<script type="text/javascript">
+google_ad_client = "pub-6904774409601870";
+/* 728x90, created 2/8/10 */
+google_ad_slot = "4242245788";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+</script>
+</div></div><div style="padding:10px; background-color:#ffcccc; border-bottom:solid 3px #FF9D9D">
+Zoom Text: <select id="zoom">
+<option value="25">25 </option>
+<option value="50">50 </option>
+<option value="75">75 </option>
+<option value="100">100 </option>
+<option value="150">150 </option>
+<option value="200">200 </option>
+</select> px </div>
+<div id="main">
+askgif | Programming Blog
+</div>
+</body>
+</html>
